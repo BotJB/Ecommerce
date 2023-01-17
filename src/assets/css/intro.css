@@ -26,7 +26,7 @@ justify-content: center;
 .info-container button{
     padding: 18px;
     margin: 10px;
-    background-color: #fcde67;
+    border:2pxx solid #fcde67;
     border-radius: 15px;
 }
 .ann-container h3{

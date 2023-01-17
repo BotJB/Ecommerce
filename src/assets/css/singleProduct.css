@@ -1,0 +1,44 @@
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+}
+.info-container h3{
+    font-size: 70px;
+
+}
+.wrapper{
+   background-color: white;
+   display: flex;
+   justify-content: center;
+}
+.image-container{
+    flex:1;
+}
+
+.container{
+    padding: 0px;
+}
+.btn-buy{
+    border: 2px solid #5bccf6;
+    background-color: white;
+  
+}
+.btn-buy:hover{
+    background-color: #5bccf6;
+}
+
+.settings{
+    display: flex;
+    padding: 10px;
+
+}
+select{
+    padding: 10px;
+}
+.quantity{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    padding: 5px;
+}

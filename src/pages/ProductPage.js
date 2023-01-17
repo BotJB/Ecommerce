@@ -22,8 +22,6 @@ const ProductPage = () => {
             <option>Blue</option>
             <option>Yellow</option>
         </select>
-        </div>
-        <div className="filter"><p> Sort By</p>
         <select>
             <option disabled selected>
                 Color
@@ -33,6 +31,16 @@ const ProductPage = () => {
             <option>M</option>
             <option>S</option>
             <option>XS</option>
+        </select>
+        </div>
+        <div className="filter"><p> Sort By</p>
+        <select>
+            <option disabled selected>
+                Color
+            </option>
+            <option>Price Asc.</option>
+            <option>Price Dec.</option>
+            
         </select>
         </div>
     </div>
