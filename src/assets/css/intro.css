@@ -1,0 +1,50 @@
+.intro-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    height: 80vh;
+
+}
+.img-container{
+flex: 1;
+}
+.info-container{
+flex: 1;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.info-container p{
+    font-weight: 500;
+    font-size: large;
+    size:8rem;
+}
+
+.info-container button{
+    padding: 18px;
+    margin: 10px;
+    background-color: #fcde67;
+    border-radius: 15px;
+}
+.ann-container h3{
+    background-color: #fcde67;
+    margin-top: 0;
+    padding: 13px;
+    text-align: center;
+}
+.filter-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.filter{
+    display: flex;
+    padding: 10px;
+}
+.filter select{
+    padding: 10px;
+}

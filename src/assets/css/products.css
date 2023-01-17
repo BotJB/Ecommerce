@@ -1,0 +1,27 @@
+.popular-products-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 25px;
+  
+}
+.single-popular-product{
+    background-color:#fcde67 ;
+    margin: 20px;
+    align-items: center;
+}
+.single-popular-product img{
+   height: 60vh;
+   width: 25vw;
+   margin: 15px;
+
+
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    
+}
+.btns:hover{
+transform: scale(1.5);
+}
