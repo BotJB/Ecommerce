@@ -1,0 +1,26 @@
+.register-form{
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+    
+}
+h3{
+    text-align: center;
+}
+input{
+    padding: 10px;
+    margin: 5px;
+}
+.footer{
+    background-color:#fcde67 ;
+   
+}
+button{
+   padding: 10px;
+   width:12vw;
+   background-color: white;
+   border: 2px solid #fcde67;
+}
+button:hover{
+    background-color: #fcde67;
+}
