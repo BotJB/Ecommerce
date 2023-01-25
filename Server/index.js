@@ -1,4 +1,5 @@
 const express=require('express')
+var cors = require('cors')
 const app=express()
 const Mongoose=require('mongoose')
 const dotenv=require('dotenv')
@@ -7,7 +8,7 @@ const authController=require('./routes/auth')
 const ProductController=require('./routes/product')
 const CartController=require('./routes/cart')
 const OrderController=require('./routes/order')
-
+app.use(cors())
 dotenv.config()
 Mongoose.connect(process.env.MONGO_URI).then(()=>{
     console.log('database connected')
